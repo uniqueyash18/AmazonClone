@@ -1,0 +1,21 @@
+export default {
+  icHome: require("../../assets/home24.png"),
+  icCart: require("../../assets/cart24.png"),
+  icMap: require("../../assets/map24.png"),
+  icProfile: require("../../assets/profile24.png"),
+  icMic: require("../../assets/mic.png"),
+  icSearch: require("../../assets/search.png"),
+  icScan: require("../../assets/scan.png"),
+  icSetting: require("../../assets/setting.png"),
+  Logo: require("../../assets/logonew.png"),
+  Notification: require("../../assets/notification.png"),
+  Logistic: require("../../assets/logistics.png"),
+  Grocery: require("../../assets/grocery.png"),
+  Fashion:require("../../assets/dress.png"),
+  Travel:require("../../assets/train.png"),
+  MiniTv:require("../../assets/tv.png"),
+  Banner:require("../../assets/banner1.png"),
+  Handblend:'https://www.dealsmagnet.com/images/18dnWbDG/2023/January/11/large/butterfly-swift-ssr-150-w-hand-blender.jpg',
+  IdolsFigures:'https://m.media-amazon.com/images/I/61iNqAKqfZL._SY450_.jpg',
+  CarAmplifiers:'https://5.imimg.com/data5/EP/YV/MY-47552737/amplifiers-250x250.jpg'
+};
