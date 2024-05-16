@@ -30,10 +30,11 @@ This project is a clone of the Amazon mobile app built using React Native. It re
   - `assets`: Images, fonts, and other static assets.
 
 ## Screenshots
-![Screenshot 1](https://github.com/uniqueyash18/AmazonClone/assets/90306032/328f02c7-08cf-4fef-9436-857aa0080ecb){:height="100px" width="50px"}
-![Screenshot 2](https://github.com/uniqueyash18/AmazonClone/assets/90306032/26079557-475c-4b4e-a2ec-1cd4ac8786c8){:height="100px" width="50px"}
-![Screenshot 3](https://github.com/uniqueyash18/AmazonClone/assets/90306032/5f34278c-e0a8-460b-b30c-cc2ef5e89e62){:height="100px" width="50px"}
-
+<p>
+<img src="https://github.com/uniqueyash18/AmazonClone/assets/90306032/328f02c7-08cf-4fef-9436-857aa0080ecb" alt="Folder Structure" width="200" height="400">
+<img src="https://github.com/uniqueyash18/AmazonClone/assets/90306032/26079557-475c-4b4e-a2ec-1cd4ac8786c8" alt="Folder Structure" width="200" height="400">
+<img src="https://github.com/uniqueyash18/AmazonClone/assets/90306032/5f34278c-e0a8-460b-b30c-cc2ef5e89e62" alt="Folder Structure" width="200" height="400">
+</p>
 
 ## Credits
 
