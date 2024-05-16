@@ -15,7 +15,7 @@ const CarouselCards = ({imgdata}) => {
         data={imgdata}
         renderItem={CarouselCardItem}
         sliderWidth={SLIDER_WIDTH}
-        itemWidth={400}
+        itemWidth={SLIDER_WIDTH-24}
         autoplay={true}
         loop={true}
         autoplayDelay={0}

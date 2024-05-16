@@ -8,61 +8,61 @@ import { Flatlist } from "../../Components/Flatlist";
 import { langstring } from "../../Constants/Strings";
 export const Profile = () => {
   newarr=[
-    { img: ImagePath.Logistic, itemname: langstring.hindiPrime },
-    { img: ImagePath.Grocery, itemname: langstring.hindi.Fresh },
-    { img: ImagePath.Fashion, itemname: langstring.hindi.Fashion },
-    { img: ImagePath.Travel, itemname: langstring.hindi.Prime },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Shoes },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Mobile },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Bikes },
+    { img: ImagePath.Logistic, itemname: langstring.eng.Prime },
+    { img: ImagePath.Grocery, itemname: langstring.eng.Fresh },
+    { img: ImagePath.Fashion, itemname: langstring.eng.Fashion },
+    { img: ImagePath.Travel, itemname: langstring.eng.Prime },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Shoes },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Mobile },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Bikes },
   ]
   return (
     <View style={{flex:1}}>
       <ProfileHeader />
       <ScrollView>
         <View style={styles.user}>
-          <Text style={styles.uname1}>{langstring.hindi.Hello}</Text>
-          <Text style={styles.uname}>{langstring.hindi.Yash}</Text>
+          <Text style={styles.uname1}>{langstring.eng.Hello}</Text>
+          <Text style={styles.uname}>{langstring.eng.Yash}</Text>
           <Image style={styles.userimg} source={ImagePath.icProfile}></Image>
         </View>
         <View style={styles.buttons}>
-          <Button title={langstring.hindi.YourOrder} />
-          <Button title={langstring.hindi.BuyAgain} />
+          <Button title={langstring.eng.YourOrder} />
+          <Button title={langstring.eng.BuyAgain} />
         </View>
         <View style={styles.buttons}>
-          <Button title={langstring.hindi.YourAccount} />
-          <Button title={langstring.hindi.YourWishlist} />
+          <Button title={langstring.eng.YourAccount} />
+          <Button title={langstring.eng.YourWishlist} />
         </View>
         <View style={styles.yourOrder}>
-          <Text style={styles.ordertext}>{langstring.hindi.YourOrder}</Text>
+          <Text style={styles.ordertext}>{langstring.eng.YourOrder}</Text>
         <TouchableOpacity  style={styles.seeAll}>
-          <Text style={styles.seeAll}>{langstring.hindi.SeeAll}</Text>
+          <Text style={styles.seeAll}>{langstring.eng.SeeAll}</Text>
           </TouchableOpacity>
         </View>
         <Flatlist data={newarr} />
         <View style={styles.yourOrder}>
-          <Text style={styles.ordertext}>{langstring.hindi.KeepShopping}</Text>
+          <Text style={styles.ordertext}>{langstring.eng.KeepShopping}</Text>
         <TouchableOpacity style={styles.seeAll} >
-          <Text style={styles.seeAll}>{langstring.hindi.Edit}</Text>
+          <Text style={styles.seeAll}>{langstring.eng.Edit}</Text>
           </TouchableOpacity>
           <TouchableOpacity style={styles.browsing}>
-          <Text style={styles.browsing}>{langstring.hindi.Browsing}</Text>
+          <Text style={styles.browsing}>{langstring.eng.Browsing}</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.keepshopping}>
-          <Items nameofitem={langstring.hindi.ElectricHandel} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}} />
-          <Items nameofitem={langstring.hindi.IdolsFigures} views={langstring.hindi.Views} imagesource={{uri:ImagePath.IdolsFigures}}/>
-          <Items nameofitem={langstring.hindi.Caramplifiers} views={langstring.hindi.Views} imagesource={{uri:ImagePath.CarAmplifiers}}/>
+          <Items nameofitem={langstring.eng.ElectricHandel} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}} />
+          <Items nameofitem={langstring.eng.IdolsFigures} views={langstring.eng.Views} imagesource={{uri:ImagePath.IdolsFigures}}/>
+          <Items nameofitem={langstring.eng.Caramplifiers} views={langstring.eng.Views} imagesource={{uri:ImagePath.CarAmplifiers}}/>
         </View>
         <View style={styles.keepshopping}>
-          <Items nameofitem={langstring.hindi.Mobile} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
-          <Items nameofitem={langstring.hindi.Helmets} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
-          <Items nameofitem={langstring.hindi.Appliances} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Mobile} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Helmets} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Appliances} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
         </View>
         <View style={styles.keepshopping}>
-          <Items nameofitem={langstring.hindi.Mobile} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
-          <Items nameofitem={langstring.hindi.Helmets} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
-          <Items nameofitem={langstring.hindi.Appliances} views={langstring.hindi.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Mobile} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Helmets} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
+          <Items nameofitem={langstring.eng.Appliances} views={langstring.eng.Views} imagesource={{uri:ImagePath.Handblend}}/>
         </View>
       </ScrollView>
     </View>

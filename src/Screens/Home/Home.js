@@ -6,19 +6,19 @@ import { data, data2 } from "../../Components/data";
 import { Flatlist } from "../../Components/Flatlist";
 import Header from "../../Components/Header";
 import ImagePath from "../../Constants/ImagePath";
-import { eng, hindi, langstring } from "../../Constants/Strings";
+import { langstring } from "../../Constants/Strings";
 import { styles } from "./styles";
 
 
 export const Home = () => {
   imgarr = [
-    { img: ImagePath.Logistic, itemname: langstring.hindi.Prime },
-    { img: ImagePath.Grocery, itemname: langstring.hindi.Fresh },
-    { img: ImagePath.Fashion, itemname: langstring.hindi.Fashion },
-    { img: ImagePath.Travel, itemname: langstring.hindi.Prime },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Shoes },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Mobile },
-    { img: ImagePath.MiniTv, itemname: langstring.hindi.Bikes },
+    { img: ImagePath.Logistic, itemname: langstring.eng.Prime },
+    { img: ImagePath.Grocery, itemname: langstring.eng.Fresh },
+    { img: ImagePath.Fashion, itemname: langstring.eng.Fashion },
+    { img: ImagePath.Travel, itemname: langstring.eng.Prime },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Shoes },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Mobile },
+    { img: ImagePath.MiniTv, itemname: langstring.eng.Bikes },
   ];
   return (
     <ScrollView style={styles.maincon}>
@@ -26,14 +26,14 @@ export const Home = () => {
       <View style={styles.address}>
         <Text>
           <Image source={ImagePath.icMap} />
-          {langstring.hindi.Address}
+          {langstring.eng.Address}
         </Text>
         <View style={styles.lang}>
           <TouchableOpacity>
             <Text>English</Text>
           </TouchableOpacity>
           <TouchableOpacity>
-            <Text>Hindi</Text>
+            <Text>eng</Text>
           </TouchableOpacity>
         </View>
       </View>
@@ -61,7 +61,7 @@ export const Home = () => {
       />
       <CarouselCards imgdata={data2} />
       <View>
-        <Text style={styles.dealsofday}>{langstring.hindi.DealsOfTheDay}</Text>
+        <Text style={styles.dealsofday}>{langstring.eng.DealsOfTheDay}</Text>
       </View>
       <CarouselCards imgdata={data2} />
     </ScrollView>
